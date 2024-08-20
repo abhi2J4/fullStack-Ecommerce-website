@@ -36,7 +36,7 @@ app.post("/upload", upload.single('product'), (req, res) => {
     success: 1,
     image_url: `http://localhost:${port}/images/${req.file.filename}`
   });
-});
+});  
 
 // Schema for creating products
 const Product = mongoose.model("Product", {
