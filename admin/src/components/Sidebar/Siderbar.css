@@ -19,6 +19,9 @@
     gap: 20px;
     cursor: pointer;
 }
+ .addproduct-img{
+    height:80px;
+}
 @media(max-width:800px){
     .sidebar{
         padding: 30px 0px;
@@ -29,5 +32,8 @@
     }
     .sidebar-item{
         margin: 0;
+    }
+    .addproduct-img{
+        height: 40px;
     }
 }
